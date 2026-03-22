@@ -1,4 +1,4 @@
-name: Main CI/CD
+name: Main Taski Workflow
 
 on:
   push:

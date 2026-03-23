@@ -1,8 +1,8 @@
 from http import HTTPStatus
 
-from api import models
-
+from api import models # noqa
 from django.test import Client, TestCase # noqa
+
 
 class TaskiAPITestCase(TestCase):
     def setUp(self):

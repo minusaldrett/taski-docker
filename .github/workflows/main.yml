@@ -134,7 +134,7 @@ jobs:
       - name: Push to DockerHub
         uses: docker/build-push-action@v4
         with:
-          context: gateway/nginx/
+          context: ./gateway/
           push: true
           tags: minusaldrett/gateway:latest
 

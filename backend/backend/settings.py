@@ -9,12 +9,13 @@ load_dotenv()
 
 SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'abobabuba.servehttp.com']
 
-
-# Application definition
+CSRF_TRUSTED_ORIGINS = [
+    'https://abobabuba.servehttp.com',
+]
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
